@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(255, 252, 247) ;
+    text-align: center;
+}
+h2{
+    color: #8f8f8f;
+    font-weight: 1000;
+    font-size: 3rem;
+    line-height: 2;
+    color: white;
+}
+em{
+    color: white;
+    font-weight: 600;
+}
+p{
+    color: #8f8f8f;
+}
+/* title section */
+#title{
+    background-color: #ff4c68 ;
+    text-align: left;
+}
+.navbar{
+    padding-bottom: 2rem 0 5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: light;
+}
+.testimonial-image{
+    width: 300px;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    right: 30%;
+    padding: 40px 0 30px 15px;
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+/* feature section */
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.fas{
+    color: #ef8172;
+    padding: 15px 0;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+.h3-features{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.feature-box{
+    padding: 5% 0;
+}
+/* testimonials section */
+#testimonials{
+    background-color: #ef8172;
+}
+.test-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.test-image:hover{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+}
+.plans-h3{
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2;
+}
+.prices{
+    color: black;
+    font-weight: 1000;
+    font-size: 3rem;
+    line-height: 2;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* call-to-action section */
+#cta{
+    background-color: #ff4c68;
+    padding: 3% 0;
+    color: white;
+}
+.download-button2{
+    margin: 10px 20px;
+}
+.cta-h3{
+    padding: 30px 15%;
+    width: 20% auto;
+    line-height: 2;
+    font-weight: 900;
+    font-size: 3rem;
+}
+/* footer section */
+#footer{
+    padding: 50px;
+}
+.ic{
+    margin: 20px 10px;
+}
+@media (max-width:995px){
+    .title-img{
+        position:static;
+        transform: rotate(0);
+        width: 55%;
+    }
+    #title{
+        text-align: center;
+    }
+   }
